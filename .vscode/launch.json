@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open week2homework",
+            "file": "c:\\Users\\judah\\.vscode\\sfte_101\\SFTE_101\\week2homework"
+        },
+        {
+            "type": "node",
+            "name": "Run Current File",
+            "request": "launch",
+            "program": "${workspaceFolder}\\week1.html"
+        }
+    ]
+}

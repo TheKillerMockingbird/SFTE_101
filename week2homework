@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homework For Week Two</title>
+</head>
+<body>
+    
+<h1>Welcome to my attempt at a website!</h1>
+<p>i don't really know much of anything about coding other than the very very basics, but I'm glad to learn!</p>
+<h3>Stuff I try to do</h3>
+<p>These are what the assignment wants, so let's see if I can do them.</p>
+<ol>
+    <li>Try to make a link</li>
+    <li>Try to do an image></li>
+    <li>Making a table></li>
+    <li>Doing a line break</li>
+    <li>Whatever a horizontal rule is</li>
+</ol>
+<hr>
+<p>I think I am supposed to put the
+   <a href="https://docs.google.com/document/d/10JujhwrdHaKcCeFmRylFlo1K9NQJ8ZqBP3m-4Woau8s/edit?usp=sharing">link</a> 
+    here, so here is a magic item I made for DND. It isn't finished yet, but still.</p>
+    <img src="Image_Testy_Boy.png" alt="A drawing of a stick figure">
+    <p>That was a little man I drew in four seconds on mspaint.<br> His name is Image Testy Boy.</p>
+
+    <table>
+        <tr>
+          <th>Character</th>
+          <th>Class</th>
+          <th>Race</th>
+        </tr>
+        <tr>
+          <td>Vazarin</td>
+          <td>Cleric</td>
+          <td>Half-elf</td>
+        </tr>
+        <tr>
+          <td>Bluien</td>
+          <td>Daymok</td>
+          <td>Lizardfolk</td>
+        </tr>
+        <tr>
+            <td>Tao Sang</td>
+            <td>Monk</td>
+            <td>Tabaxi</td>
+        </tr>
+        <tr>
+            <td>Bodiron</td>
+            <td>Sorcerer</td>
+            <td>Dwarf</td>
+            </td>
+        </tr>
+      </table>
+      <p>Those are some of my DND characters. <br>Ones that I will probably never get to use.</p>
+</body>
+</html>
