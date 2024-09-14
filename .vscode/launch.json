@@ -4,8 +4,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open week2homework.html",
-            "file": "c:\\Users\\judah\\.vscode\\sfte_101\\SFTE_101\\week2homework.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\judah\\.vscode\\sfte_101\\SFTE_101\\index.html"
         },
         {
             "type": "node",
