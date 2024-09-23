@@ -16,11 +16,12 @@
         <nav>
             <a href="index.html">Home</a> |
             
-                <a href="#">Assignments</a>
-                  <ul>
-                    <li><a href="Assignment1.html">Assignment 1</a></li>
-                    <li><a href="Assignment2.html">Assignment 2</a></li>
-                  </ul>
+            <label for="assignments"></label>
+            <select id="assignments" onchange="location = this.value;">
+            <option value="#">Assignments</option>
+            <option value="assignment1.html">Assignment 1</option>
+            <option value="assignment2.html">Assignment 2</option>
+            </select>
                |
             <a href="about.html">About Me</a> |
             <a href="contact.html">Contact</a>
