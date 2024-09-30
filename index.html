@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Classwork home page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,22 +13,21 @@
     <p>I don't know if all of this will work at all, but might as well try.</p>
 </header>
 
-
-
 <body>
     <head>
-        <nav>
-            <a href="index.html">Home</a> |
-            
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Home</a></li> 
             <label for="assignments"></label>
             <select id="assignments" onchange="location = this.value;">
             <option value="#">Assignments</option>
             <option value="Assignment1.html">Assignment 1</option>
             <option value="Assignment2.html">Assignment 2</option>
             </select>
-               |
-            <a href="about.html">About Me</a> |
-            <a href="contact.html">Contact</a>
+               
+            <li><a href="about.html">About Me</a></li> 
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </head>
     <p>I will work on making this into prettier looking website once I know CSS better, but for now unfortunately this is the best I can do at the moment.</p>
