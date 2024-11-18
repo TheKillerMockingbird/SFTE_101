@@ -8,7 +8,7 @@
 <body>
 
 <header>
-    <img src="Thinking_Dragon.png" alt="A very poorly drawn purple dragon">
+    <img src="images/Thinking_Dragon.png" alt="A very poorly drawn purple dragon">
     <h1>This is going to be my hub for my classwork</h1>
     <p>I don't know if all of this will work at all, but might as well try.</p>
 </header>
@@ -18,18 +18,29 @@
         <nav class="navbar">
             <ul>
             <li><a href="index.html">Home</a></li> 
-            <label for="assignments"></label>
-            <select id="assignments" onchange="location = this.value;">
-            <option value="#">Assignments</option>
-            <option value="Assignment1.html">Assignment 1</option>
-            <option value="Assignment2.html">Assignment 2</option>
-            </select>
-               
             <li><a href="about.html">About Me</a></li> 
             <li><a href="contact.html">Contact</a></li>
+            
+            
+
+                <div class="dropdown">
+                    <button class="dropbtn">Assignments
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Assignment1.html">Assignment 1</a>
+                      <a href="Assignment2.html">Assignment 2</a>
+                      <a href="Midterm/Dream_Job_Midterm.html">Midterm</a>
+                    </div>
+                  </div>
+               
+            
             </ul>
         </nav>
     </head>
+    <br>
+    <br>
+    <br>
     <p>I will work on making this into prettier looking website once I know CSS better, but for now unfortunately this is the best I can do at the moment.</p>
     <br>
     <p>I'm planning on making a wonderful story one day, but I have to finish college first. After that, I hope you all will be patient enough and willing to experience it someday.</p>

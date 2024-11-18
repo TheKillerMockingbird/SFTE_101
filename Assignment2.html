@@ -8,7 +8,7 @@
 <body>
 
 <header>
-    <img src="Thinking_Dragon.png" alt="A very poorly drawn purple dragon">
+    <img src="images/Thinking_Dragon.png" alt="A very poorly drawn purple dragon">
     
 </header>
 
@@ -16,18 +16,27 @@
 
 <body>
     <head>
-        <nav>
-            <a href="index.html">Home</a> |
-            
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About Me</a></li> 
+            <li><a href="contact.html">Contact</a></li>
             <label for="assignments"></label>
-            <select id="assignments" onchange="location = this.value;">
-            <option value="#">Assignments</option>
-            <option value="Assignment1.html">Assignment 1</option>
-            <option value="Assignment2.html">Assignment 2</option>
-            </select>
-               |
-            <a href="about.html">About Me</a> |
-            <a href="contact.html">Contact</a>
+            
+
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Assignment1.html">Assignment 1</a>
+                      <a href="Assignment2.html">Assignment 2</a>
+                      <a href="Midterm/Dream_Job_Midterm.html">Midterm</a>
+                    </div>
+                  </div>
+               
+            
+            </ul>
         </nav>
     </head>
     <p>This form is for any DND characters you have, tell me about them!</p>
@@ -83,10 +92,6 @@
     <label for="aarakocra">Aarakocra</label>
     <input type="radio" id="aasimar" name="aasimar" value="Aasimar">
     <label for="aasimar">Aasimar</label>
-    <input type="radio" id="aetherborn" name="aetherborn" value="Aetherborn">
-    <label for="aetherborn">Aetherborn</label>
-    <input type="radio" id="aven" name="aven" value="Aven">
-    <label for="aven">Aven</label>
     <input type="radio" id="autognome" name="autognome" value="Autognome">
     <label for="autognome">Autognome</label>
     <input type="radio" id="astral_elf" name="astral_elf" value="Astral_elf">
@@ -151,8 +156,6 @@
     <label for="kender">Kender</label>
     <input type="radio" id="kalashtar" name="kalashtar" value="Kalashtar">
     <label for="kalashtar">Kalashtar</label>
-    <input type="radio" id="kor" name="kor" value="Kor">
-    <label for="kor">Kor</label>
     <input type="radio" id="kobold" name="kobold" value="Kobold">
     <label for="kobold">Kobold</label>
     <input type="radio" id="leonin" name="leonin" value="Leonin">
@@ -163,12 +166,8 @@
     <label for="locathah">Locathah</label>
     <input type="radio" id="loxodon" name="loxodon" value="Loxodon">
     <label for="loxodon">Loxodon</label>
-    <input type="radio" id="merfolk" name="merfolk" value="Merfolk">
-    <label for="merfolk">Merfolk</label>
     <input type="radio" id="minotaur" name="minotaur" value="Minotaur">
     <label for="minotaur">Minotaur</label>
-    <input type="radio" id="naga" name="naga" value="Naga">
-    <label for="naga">Naga</label>
     <input type="radio" id="orc" name="orc" value="Orc">
     <label for="orc">Orc</label>
     <input type="radio" id="owlin" name="owlin" value="Owlin">
@@ -185,8 +184,6 @@
     <label for="shadar_kai">Shadar-kai</label>
     <input type="radio" id="shifter" name="shifter" value="Shifter">
     <label for="shifter">Shifter</label>
-    <input type="radio" id="siren" name="siren" value="Siren">
-    <label for="siren">Siren</label>
     <input type="radio" id="simic_hybrid" name="simic_hybrid" value="Simic_hybrid">
     <label for="simic_hybrid">Simic Hybrid</label>
     <input type="radio" id="tabaxi" name="tabaxi" value="Tabaxi">
@@ -199,8 +196,6 @@
     <label for="triton">Triton</label>
     <input type="radio" id="thri_kreen" name="thri_kreen" value="Thri_kreen">
     <label for="thri_kreen">Thri-kreen</label>
-    <input type="radio" id="vampire" name="vampire" value="Vampire">
-    <label for="vampire">Vampire</label>
     <input type="radio" id="vedalken" name="vedalken" value="Vedalken">
     <label for="vedalken">Vedalken</label>
     <input type="radio" id="verdan" name="verdan" value="Verdan">
@@ -213,12 +208,13 @@
     <p>What is your character's backstory?</p>
     <label for="backstory">Backstory:</label>
     <textarea id="backstory" name="backstory"></textarea>
-
+<br>
     <label for="email">Email:</label><br>
     <input id="email" type="email" name="email">
 
     <input type="submit" value="Submit">
     </form>
+    <br>
     <footer>
         <p> &copy; 2024, Judah Olson. All rights reserved</p>
     </footer>
