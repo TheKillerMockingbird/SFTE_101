@@ -28,7 +28,7 @@ ol {
   }
 
 .navbar li {display: inline;
-float: left;
+float: center;
 color: white;
 background-color:rgb(136, 7, 7);
 }
