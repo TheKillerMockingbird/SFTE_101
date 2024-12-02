@@ -8,7 +8,7 @@ img {
 
 body { list-style-position: inside;
     text-align: center;
-    background-color: rgba(235, 227, 117);
+    background-color: rgb(218, 214, 164);
 }
 
 ol {
@@ -113,3 +113,18 @@ background-color:rgb(136, 7, 7);
     
         border-style: solid;
     }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+      flex-grow: 1;
+    }
+
+    img {
+      width: 50%;
+      height: auto;
+      object-fit: contain;
+  }
